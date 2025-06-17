@@ -82,7 +82,6 @@
     "breadcrumbs.enabled": false,
     "terminal.integrated.tabs.enabled": false,
     "terminal.integrated.suggest.showStatusBar": false,
-    "terminal.integrated.allowChords": false,
     "terminal.integrated.customGlyphs": false,
     "terminal.integrated.enablePersistentSessions": false,
 
