@@ -1,0 +1,83 @@
+{
+    "workbench.remoteIndicator.showExtensionRecommendations": false,
+    "workbench.colorTheme": "Simple Black Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.statusBar.visible": false,
+    "workbench.sideBar.location": "right",
+    "editor.mouseWheelZoom": true,
+    "workbench.editor.showTabs": "none",
+    "breadcrumbs.enabled": false,
+    "window.title": "${dirty}${separator}${activeFolderMedium}${separator}${activeEditorShort}",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.lineHeight": 1.3,
+    "editor.lineHeight": 2.2,
+    "editor.letterSpacing": 0.1,
+    "editor.fontFamily": "Fira Code, monospace",
+    "editor.fontSize": 16,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "visible",
+    "editor.scrollbar.vertical": "visible",
+    "editor.scrollbar.horizontalScrollbarSize": 10,
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.lightbulb.enabled": "off",
+    "editor.renderWhitespace": "none",
+    "github.copilot.enable": {
+        "*": false
+    },
+    "editor.hover.enabled": false,
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.showDeprecated": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.cursorBlinking": "phase",
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.startupEditor": "none",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.tips.enabled": false,
+    "editor.renderLineHighlight": "all",
+    "files.insertFinalNewline": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.glyphMargin": false,
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#000000",
+        "titleBar.activeForeground": "#ffffff",
+    },
+    "settings.cycle": [
+        {
+            "id": "toggle-copilot",
+            "values": [
+                { "github.copilot.enable": { "*": false } },
+                { "github.copilot.enable": { "*": true } }
+            ]
+        },
+        {
+            "id": "toggle-hover",
+            "values": [
+                { "editor.hover.enabled": false },
+                { "editor.hover.enabled": true }
+            ]
+        }
+    ],
+    "workbench.layoutControl.enabled": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.location": "top",
+    "window.commandCenter": false,
+    "chat.commandCenter.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "window.titleSeparator": " | ",
+    "accessibility.windowTitleOptimized": false,
+    "window.zoomLevel": 1,
+    "settingsSync.ignoredSettings": [
+        "-window.zoomLevel"
+    ],
+}
